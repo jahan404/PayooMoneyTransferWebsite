@@ -17,4 +17,8 @@ document.getElementById('add-money-button').addEventListener('click',function(ev
         
         document.getElementById('available-balance').innerText=adding;
     }
+
+    else{
+        alert('Failed')
+       }
 })
