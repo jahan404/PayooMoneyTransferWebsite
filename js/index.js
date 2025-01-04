@@ -7,10 +7,10 @@ document.getElementById('login-button').addEventListener('click', function(event
 
    const phoneNumber =document.getElementById('phone-number').value;
    const pin =document.getElementById('pin-number').value
-//    console.log(phoneNumber,pin)
+   //    console.log(phoneNumber,pin)
 
    if( phoneNumber==='01820033756' && pin==='111' ){
       
-       window.location.href = 'homePage.html'
+       window.location.href = './homePage.html'   //this is important . 
    }
 })
